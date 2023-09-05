@@ -88,3 +88,12 @@ https://github.com/mahuntington/ec2postgres/assets/981450/ad4182ce-19a9-4cfd-b94
 1. Click on Insance ID
 1. Copy Public IPv4 address or Public IPv4 DNS
 1. Paste into browser and add :3000 after it
+
+## Monitoring the app for downtime
+
+AWS sporadically restarts EC2 instances with no warning.  The simplest solution is to use https://www.downnotifier.com/
+
+1. Enter Website URL
+1. Enter your email address
+1. Make sure "Notify Me: When the site is offline" is selected
+1. Click "Start monitoring my website"
