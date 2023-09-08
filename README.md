@@ -92,7 +92,7 @@ https://github.com/mahuntington/ec2postgres/assets/981450/ad4182ce-19a9-4cfd-b94
 
 ## Assign Elastic IP
 
-https://github.com/mahuntington/ec2postgres/assets/981450/5e8f0223-0b71-45f7-bf85-b344ec841910
+https://github.com/mahuntington/ec2postgres/assets/981450/e0f0a701-8c1f-45df-958d-8d0755e1481f
 
 1. In EC2 Dashboard, click on Elastic IPs in left menu bar
 1. Click "Allocate Elastic IP address"
