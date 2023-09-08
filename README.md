@@ -46,7 +46,7 @@ https://github.com/mahuntington/ec2postgres/assets/981450/73b4196d-ccbf-45c8-aee
 
 1. Click SSH Client of not already chosen
 1. Locally, locate directory containing .pem file
-1. `chmod 400 pern.pem` (substitute filename for pern.pem)
+1. `chmod 400 pern.cer` (substitute filename for pern.cer)
 1. copy Example connect command from AWS page
 1. confirm connecting
 
