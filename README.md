@@ -81,7 +81,8 @@ https://github.com/mahuntington/ec2postgres/assets/981450/ad4182ce-19a9-4cfd-b94
 1. Click on Edit inbound rules
 1. Click on Add Rule
 1. Choose Custom TCP
-1. For Port range enter 3000-9000 (maybe just 10 ports?)
+1. For Port range enter 3000 or whatever
+    - each time a new app is deployed, a new unique port number must be opened and the app must listen on it
 1. For Source choose Anywhere-IPv4
 1. Click Save rules
 1. Click on Instances
