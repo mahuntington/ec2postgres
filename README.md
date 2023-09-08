@@ -90,6 +90,21 @@ https://github.com/mahuntington/ec2postgres/assets/981450/ad4182ce-19a9-4cfd-b94
 1. Copy Public IPv4 address or Public IPv4 DNS
 1. Paste into browser and add :3000 after it
 
+## Assign Elastic IP
+
+1. In EC2 Dashboard, click on Elastic IPs in left menu bar
+1. Click "Allocate Elastic IP address"
+1. Click "Allocate"
+1. Click on "Actions" dropdown
+1. Choose "Associate Elastic IP address"
+1. Click into "Instance" text input
+1. Choose your instance from autocomplete option
+1. Click on "Associate"
+1. Click on "Instances" in left menu bar
+1. Click on instance id
+1. Note existence of "Elastic IP Address"
+1. Use this IP address instead of previous IP address.
+
 ## Monitoring the app for downtime
 
 AWS sporadically restarts EC2 instances with no warning.  The simplest solution is to use https://www.downnotifier.com/
