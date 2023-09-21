@@ -37,7 +37,7 @@ sudo apt-get -y install nodejs
 
 https://github.com/mahuntington/ec2postgres/assets/981450/73b4196d-ccbf-45c8-aeef-affac44247df
 
-1. After creation, click on Connect to instance
+1. After creation, wait a few minutes for the installation of the tools to complete and click on Connect to instance
 1. From EC2 Dashboard:
 
     1. Resources: click Instances (running)
