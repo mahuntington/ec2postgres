@@ -97,7 +97,7 @@ https://github.com/mahuntington/ec2postgres/assets/981450/97878ebe-63a4-47da-8af
 1. In EC2 Dashboard, click on Elastic IPs in left menu bar
 1. Click "Allocate Elastic IP address"
 1. Click "Allocate"
-1. Click on "Actions" dropdown
+1. Check box next to instance and click on "Actions" dropdown
 1. Choose "Associate Elastic IP address"
 1. Click into "Instance" text input
 1. Choose your instance from autocomplete option
