@@ -45,9 +45,9 @@ https://github.com/mahuntington/ec2postgres/assets/981450/73b4196d-ccbf-45c8-aee
     1. Click Connect
 
 1. Click SSH Client of not already chosen
-1. Locally, locate directory containing .pem file
+1. Locally, locate directory containing `.cer` file
 1. `chmod 400 pern.cer` (substitute filename for pern.cer)
-1. copy Example connect command from AWS page
+1. copy Example connect command from AWS page.  Note, that you may need to change the name and/or extension of the `.cer` file listed in the command to match the actual file name on your computer
 1. confirm connecting
 
 ## GitHub
@@ -106,6 +106,7 @@ https://github.com/mahuntington/ec2postgres/assets/981450/97878ebe-63a4-47da-8af
 1. Click on instance id
 1. Note existence of "Elastic IP Address"
 1. Use this IP address instead of previous IP address.
+1. When reconnecting to the server via SSH, re-copy the connection string.  The domain for your server changes when your server's IP changes to the Elastic IP
 
 ## Monitoring the app for downtime
 
